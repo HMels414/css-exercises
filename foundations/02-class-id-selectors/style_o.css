@@ -1,0 +1,12 @@
+body { font-size: 24px;
+}
+.odd {
+    background-color: pink;
+}
+#rebel { color: blue; 
+    font-size: 36px;
+}
+#other { background-color: lightgreen;
+    font-weight: bold;
+}
+div {font-family: Arial, Helvetica, sans-serif;}

@@ -1,0 +1,13 @@
+.odd {
+    background-color: pink; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+#rebel { 
+    color: blue; font-size: 36px;
+}
+#other {
+    background-color: lightgreen; 
+    font-size: 24px; 
+    font-weight: bold;
+}
