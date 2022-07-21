@@ -1,25 +1,39 @@
 .header  {
-  font-family: monospace;
+  display: flex;
+  flex-wrap: row wrap;
+  flex: 1 1 auto;
+  justify-content: space-between;
   background: papayawhip;
+  /* border:  solid black 2px; */
+  font-family: monospace;
+  /* width: auto; */
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .logo {
+  background: white;
+  /* border:  solid rebeccapurple 2px; */
+  color: tomato;
   font-size: 48px;
   font-weight: 900;
-  color: tomato;
-  background: white;
   padding: 4px 32px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  /* border:  solid red 2px; */
+  padding: 10px;
+  gap: 10px; 
 }
 
 a {
-  font-size: 22px;
   background: white;
+  /* border: solid peru 2px; */
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  font-size: 22px;
 }
