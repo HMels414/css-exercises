@@ -16,23 +16,49 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
-  width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  width: 480px;
+  padding: 8px;
+  /* border: solid red 4px; */
 }
 
 .icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: royalblue;
+  background: lavender;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  height: 42px;
+  width: 42px;
+} 
+
+.left {
+  padding: 8px;
+     /* border: solid rgb(252, 164, 0) 4px; */
+}
+
+.right {
+   /* border: solid rgb(252, 5, 252) 4px; */
+}
+
+ .warn {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+   /* border: solid rgb(0, 0, 0) 4px; */
+ }
+
+.header {
+  display: flex;
+  font-weight: bold;
+  font-size: larger;
+    /* border: solid rgb(26, 255, 0) 4px; */
 }
 
 .close-button {
@@ -46,13 +72,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: solid rgb(11, 229, 249) 4px; */
 }
 
+.text {
+  padding: 4px 8px;
+   /* border: solid rgb(90, 112, 200) 4px; */
+}
 button {
   padding: 8px 16px;
   border-radius: 8px;
 }
 
+.yn {
+  padding: 8px 8px;
+   /* border: solid rgb(11, 229, 249) 4px; */
+}
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
