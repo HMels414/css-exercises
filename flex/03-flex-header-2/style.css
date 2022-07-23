@@ -3,15 +3,64 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
-  background: #eee;
+  background: rgb(238, 238, 238);
   font-family: Besley, serif;
+  margin: 0;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.logolink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ .links {
+  display: flex;
+  align-self: center;
+} 
+
+ul {
+ list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  display: flex;
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+  margin: 16px;
 }
 
 .profile-image {
@@ -22,27 +71,3 @@ body {
   height:  48px;
 }
 
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-}
-
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
-}
-
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
-}
