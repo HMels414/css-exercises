@@ -4,11 +4,11 @@
   flex: 1 1 auto;
   justify-content: space-between;
   background: papayawhip;
-  /* border:  solid black 2px; */
   font-family: monospace;
-  /* width: auto; */
   margin-top: 20px;
   padding: 10px;
+  /* width: auto; */
+  /* border:  solid black 2px; */
 }
 
 .logo {
@@ -31,9 +31,9 @@ ul {
 
 a {
   background: white;
-  /* border: solid peru 2px; */
-  padding: 8px;
-  /* this removes the line under the links */
   text-decoration: none;
   font-size: 22px;
+  padding: 8px;
 }
+  /* border: solid peru 2px; */
+  /* this removes the line under the links */
